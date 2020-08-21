@@ -1,0 +1,204 @@
+/* this file is loaded by index.html and styles the page */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://media.discordapp.net/attachments/737125512907980850/742260663455580160/bgportal.png");
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #23272A;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 0px #d26dda solid !important;
+    font-size: 16px;
+}
+
+.background {
+  background-image: url("https://media.discordapp.net/attachments/737125512907980850/742260663455580160/bgportal.png");
+  color: #eff;
+  
+}
+
+.verificacion {
+  color: #fff;
+  font-size: 27px;
+  float: 50%;
+  height: 40px;
+	line-height: 40px;
+	width: 30%;
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+  position: relative;
+  top: 175px;
+}
+
+.button-verificacion {
+  float: 50%;
+  height: 40px;
+	line-height: 40px;
+	width: 90%;
+	background: #E3F3E3;
+	color: #000600;
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+  position: relative;
+
+  top: 100px;
+}
+
+.circular {
+  border-radius: 50%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  position: relative;
+  top: 150px;
+}
+
+form {
+  background-color: #eee;
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+  max-width: 40ch;
+}
+
+input {
+  border: 1px solid silver;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #23272A;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 0px #d26dda solid !important;
+    font-size: 16px;
+}
+
+.circular-verificacion {
+  border-radius: 50%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  position: relative;
+  top: 50px;
+}
+
+.estadisticas {
+    font-size: 40px !important;
+    color: #fff !important;
+    line-height: 70px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    position: relative;
+    top: 80px;
+    text-decoration: none;
+}
+
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+ }
+
+ .header{
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+
+ }
+
+.menu ul li:hover{
+	   	background: orange;
+	}
+
+ .navbar{
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  transition: .5s;
+ }
+
+ .navbar ul li{
+  list-style-type: none;
+  display:inline-block;
+  padding: 10px 50px;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius:10px;
+  transition: .5s;
+ }
+
+ .navbar ul li:hover{
+  background: grey;
+ }
+
+  .box{
+    width: 80%;
+    height: 2000px;
+    background: grey;
+    margin: 20px auto;
+
+  }
+
+.logo-home {
+  max-height: 100px;
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+
+.menu {
+   text-decoration: none;
+    width: 100%;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  transition: .5s;
+}
+
+.menu a {
+  text-decoration: none;
+    list-style-type: none;
+  display:inline-block;
+  padding: 10px 50px;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius:10px;
+  transition: .5s;
+}
+
+.menu:hover {
+  background: grey;
+}
+
+.h1 {
+  text-decoration: none;
+}
